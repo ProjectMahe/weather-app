@@ -661,7 +661,7 @@
     </div>
 
     <script>
-      const API_KEY = "1d93d50a8b02074ad17c078d0f379ac0"; // You can get your own key from openweathermap.org
+      const API_KEY = "YOUR_OPENWEATHER_API_KEY"; // You can get your own key from openweathermap.org
       const weatherInfo = document.getElementById("weather-info");
       const forecastSection = document.getElementById("forecast-section");
       const hourlyForecastSection = document.getElementById(
@@ -1017,8 +1017,6 @@
     </script>
 
     <script>
-      //   const API_KEY = "1d93d50a8b02074ad17c078d0f379ac0";
-
       // ... (unchanged JS until getWeatherIconSVG)
 
       function getWeatherIconSVG(iconCode, size = 60) {
@@ -1079,8 +1077,6 @@
         }
         return `<svg viewBox="${viewBox}" width="${size}" height="${size}" class="weather-icon-svg">${svgContent}</svg>`;
       }
-
-      // ... rest of your JS unchanged
     </script>
   </body>
 </html>
