@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Detailed Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -20,6 +21,16 @@
             <p id="temperature"></p>
             <p id="description"></p>
             <p id="humidity"></p>
+        </div>
+
+        <div class="hourly-forecast-container">
+            <h3>Hourly Forecast</h3>
+            <canvas id="hourly-chart"></canvas>
+        </div>
+
+        <div class="daily-forecast-container">
+            <h3>7-Day Forecast</h3>
+            <div id="daily-forecast"></div>
         </div>
     </div>
 
