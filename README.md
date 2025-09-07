@@ -63,3 +63,37 @@ const API_KEY = "YOUR_OPENWEATHER_API_KEY";
 
 3. **Run locally:**
 Simply open index.html in your browser—it’s a static site requiring no server
+
+## 📸 Project Preview
+
+The Weather Forecast Web App is fully **responsive**, working seamlessly across devices.  
+
+### 🌐 Desktop View
+![Desktop Preview](./screenshots/desktop-view.png)
+
+### 💻 Tablet View
+![Tablet Preview](./screenshots/tablet-view.png)
+
+### 📱 Mobile View
+![Mobile Preview](./screenshots/mobile-view.png)
+
+
+## 🎨 Dark & Light Theme Support
+
+This app comes with **built-in theme switching**.  
+Users can easily toggle between **Dark Mode** 🌙 and **Light Mode** ☀️ for a better viewing experience.  
+
+### 🌙 Dark Mode
+![Dark Mode](./screenshots/dark-mode.png)
+
+### ☀️ Light Mode
+![Light Mode](./screenshots/light-mode.png)
+
+### 📱 Mobile Dark Mode
+![Mobile Preview](./screenshots/mobile-dark-view.png)
+
+### 📱 Mobile Light Mode
+![Mobile Preview](./screenshots/mobile-light-view.png)
+
+
+⭐ If you enjoyed this project or found it helpful, leave a ⭐ on the repo and share your feedback!
